@@ -10,4 +10,34 @@ public class Student
         this.idNum = id;
         this.gpa = gpaNum;
     }
+
+    public String getName()
+    {
+        return name;
+    }
+
+    public String getID()
+    {
+        return idNum;
+    }
+
+    public double getGPA()
+    {
+        return gpa;
+    }
+
+    public void setName(String n)
+    {
+        name = n;
+    }
+
+    public void setID(String id)
+    {
+        idNum = id;
+    }
+
+    public void setGPA(double gpaNum)
+    {
+        gpa = gpaNum;
+    }
 }
