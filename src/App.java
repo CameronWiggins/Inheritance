@@ -5,7 +5,13 @@ public class App {
         GradStudent gs1 = new GradStudent("Margie Neff", "12009", 4.0, 122, "8:00 - 2:00");
         GradStudent gs2 = new GradStudent("Nathan Kelly", "77743", 3.918, 213, "12:00 - 6:00");
 
-        
+        s1.setID("22567");
+        s2.setGPA(3.533);
+        gs1.setName("Margie Olson");
+        gs2.set
+
+
+
 
     }
 }
