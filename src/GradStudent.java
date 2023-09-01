@@ -29,4 +29,10 @@ public class GradStudent extends Student
     {
         officeHrs = hrs;
     }
+
+    public String toString()
+    {
+        return
+
+    }
 }
