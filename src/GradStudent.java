@@ -31,13 +31,13 @@ public class GradStudent extends Student
         officeHrs = hrs;
     }
 
-    //@override
+    //@override wasn't working in class
     public void setID(String id)
     {
         super.setID("GR-" + id);
     }
 
-    //@override
+    //@override wasn't working in class
     public String toString()
     {
         String begin = super.toString();
