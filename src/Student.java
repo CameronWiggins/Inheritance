@@ -43,6 +43,6 @@ public class Student
 
     public String toString()
     {
-        return "Student: " + name + " GPA: " + gpa + " Student ID: ";
+        return "Student: " + name + ", GPA: " + gpa + ", Student ID: " + idNum;
     }
 }

@@ -5,9 +5,10 @@ public class GradStudent extends Student
 
     public GradStudent(String n, String id, double gpaNum, int office, String hrs)
     {
-        super(n, id, gpaNum);
+        super(n, "GR-" + id, gpaNum);
         officeNum = office;
         officeHrs = hrs;
+
     }
 
     public int getOffice()
@@ -30,9 +31,17 @@ public class GradStudent extends Student
         officeHrs = hrs;
     }
 
+    //@override
+    public void setID(String id)
+    {
+        super.setID("GR-" + id);
+    }
+
+    //@override
     public String toString()
     {
-        return
-
+        String begin = super.toString();
+        return begin + ", Office: " + officeNum + ", Office Hours: " + officeHrs;
     }
+
 }
