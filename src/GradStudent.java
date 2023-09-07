@@ -44,4 +44,9 @@ public class GradStudent extends Student
         return begin + ", Office: " + officeNum + ", Office Hours: " + officeHrs;
     }
 
+    String getDegree()
+    {
+        return "graduate degree";
+    }
+
 }
